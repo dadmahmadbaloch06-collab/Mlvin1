@@ -1,0 +1,46 @@
+JARVIS/
+├── settings.gradle.kts
+├── build.gradle.kts
+├── gradle.properties
+├── gradle/
+│   ├── libs.versions.toml
+│   └── wrapper/gradle-wrapper.properties
+├── .github/workflows/build.yml
+└── app/
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    └── src/
+        ├── main/
+        │   ├── AndroidManifest.xml
+        │   ├── java/bl/mlvin/jarvis/
+        │   │   ├── JarvisApp.kt
+        │   │   ├── MainActivity.kt
+        │   │   ├── di/AppModule.kt
+        │   │   ├── data/Database.kt
+        │   │   ├── data/SettingsStore.kt
+        │   │   ├── agent/Models.kt
+        │   │   ├── agent/SafetyPolicy.kt
+        │   │   ├── agent/GeminiClient.kt
+        │   │   ├── agent/AgentEngine.kt
+        │   │   ├── platform/ScreenAccess.kt
+        │   │   ├── platform/JarvisAccessibilityService.kt
+        │   │   ├── platform/NotificationMemory.kt
+        │   │   ├── platform/JarvisNotificationService.kt
+        │   │   ├── platform/VoiceController.kt
+        │   │   ├── platform/AssistantService.kt
+        │   │   ├── platform/Recovery.kt
+        │   │   ├── skills/Skills.kt
+        │   │   └── ui/JarvisUi.kt
+        │   └── res/
+        │       ├── values/strings.xml
+        │       ├── values/themes.xml
+        │       ├── values/colors.xml
+        │       ├── values-fa/strings.xml
+        │       ├── xml/accessibility_service_config.xml
+        │       ├── xml/backup_rules.xml
+        │       ├── xml/data_extraction_rules.xml
+        │       ├── drawable/ic_notification.xml
+        │       ├── drawable/ic_launcher_foreground.xml
+        │       ├── mipmap-anydpi-v26/ic_launcher.xml
+        │       └── mipmap-anydpi-v26/ic_launcher_round.xml
+        └── test/java/bl/mlvin/jarvis/agent/SafetyPolicyTest.kt
